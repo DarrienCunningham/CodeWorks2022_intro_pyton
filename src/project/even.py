@@ -1,4 +1,7 @@
-range (10, 20)
- for num in range:
-if num % 2 == 0:
-print(num, end=" ")
+def isEven(num):
+ return (num % 2 == 0)
+num = int(input('Enter a number: '))
+if isEven(num):
+ print(num," is an even number")
+else:
+ print(num," is not an even number")
