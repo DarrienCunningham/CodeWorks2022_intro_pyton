@@ -1,23 +1,20 @@
-def send(email):
-    emails.append(email)
-    print("email sent")
-    return emails
+users = [{'name:'default user', 'email':'email@email.com', 'password':'1234'}]
 
-def printEmails():
-    print("---New Email---")
-    print("From: "+email['sender'])
-    print("To: "+email[reciver'])
-    print("Subject: "+email['subject'])
-    print(email['message'])
-    print("---/n/n/n/n/n")
-                       
-                       
-sender = "me"
-reciever = "you"
-subject = "Congradulations Your Code is Working!/n/n"
-message = "Hello user,/n Congradulations your code seems to be working perfectly./n Just be sure to run it again
-                       
-print(str(type(send({'sender':semder, 'reciver':reciver, 'subject':subject, 'message':message,})))+"/n/n/n")
-                       
-sender = "me again"
-reciver = "you"
+def create_user(user_name, email, password1, password2)
+
+ for user in users:
+        if user['email'] != email:
+            if password1 == password2:
+                users.append({'name':user_name, 'email':email, 'password':password})
+                
+                
+                
+     def get_user(email):
+        
+        
+        
+        
+        
+   def get_users():
+    
+    
