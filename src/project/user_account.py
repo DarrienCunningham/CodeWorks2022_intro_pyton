@@ -1,33 +1,23 @@
-#User account managment
+def send(email):
+    emails.append(email)
+    print("email sent")
+    return emails
 
-users = []
-
-def creat_user(user_name, email, password1, password2):
-    #YOUR CODE HERE
-
-
-
-
-
-def get_user(email):
-    #YOUR CODE HERE
-
-
-
-
-def get_all_users():
-    #YOUR CODE HERE
-
-
-
-#Testing the Code
-
-## try creating three new users and print out the results
-
-## Try adding one of the three users you added and print out the results
-
-## Try adding a new user with passwords that don't matches and print out the results
-
-## Get the second users print out their user name and email
-
-## Get all users and print only their user names
+def printEmails():
+    print("---New Email---")
+    print("From: "+email['sender'])
+    print("To: "+email[reciver'])
+    print("Subject: "+email['subject'])
+    print(email['message'])
+    print("---/n/n/n/n/n")
+                       
+                       
+sender = "me"
+reciever = "you"
+subject = "Congradulations Your Code is Working!/n/n"
+message = "Hello user,/n Congradulations your code seems to be working perfectly./n Just be sure to run it again
+                       
+print(str(type(send({'sender':semder, 'reciver':reciver, 'subject':subject, 'message':message,})))+"/n/n/n")
+                       
+sender = "me again"
+reciver = "you"
