@@ -1,12 +1,9 @@
-#define the class
-
-#define the class variables
-
-
-#define the init function
-
-
-#define the methods
-
-
-#create 4 instance of this class and test all the methods
+class flashcard:
+  def __init__(self, word, meaning):
+    self.word = word
+    self.meaning = meaning
+    def __str__(self):
+      return self.word+' ( '+self.meaning+' )'
+    
+    flash = []
+   
