@@ -25,3 +25,4 @@ print(hero.position)
 villian = Villian("villian", 0)
 villian.move()
 print(villian.position)
+
