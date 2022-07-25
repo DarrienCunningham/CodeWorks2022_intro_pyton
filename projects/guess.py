@@ -1,1 +1,3 @@
-#your code here
+from numpy import random
+print(random.random())
+
